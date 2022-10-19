@@ -33,7 +33,6 @@ section {
     flex-direction: column;
     text-align: center;
     align-items: center;
-    height: 500px;
     margin: 10px auto;    
     background-color: rgba(255, 255, 255, 0.671);    
 }
@@ -52,8 +51,8 @@ section {
 }
 
 iframe {
-    width: 90%;
-    height: 60%;
+    width: 50%;
+    height: 400px;
     margin: 40px auto;
    
 }
