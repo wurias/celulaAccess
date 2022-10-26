@@ -28,6 +28,18 @@ header {
     background-color: rgba(0, 0, 0, 0.63);
 }
 
+.fotos img {
+    border-radius: 10%;
+}
+
+.fotos .impar:hover {
+    transform:rotate(4deg);
+}
+
+.fotos .par:hover {
+    transform:rotate(-4deg);
+}
+
 section {
     display: flex;
     flex-direction: column;
@@ -53,6 +65,5 @@ section {
 iframe {
     width: 94%;
     height: 400px;
-    margin: 40px auto;
-   
+    margin: 40px auto;   
 }
