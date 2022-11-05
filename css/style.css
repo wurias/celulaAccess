@@ -1,5 +1,5 @@
 body {
-    background: url('imgs/gramado_fundo.jpg');
+    background: url('../imgs/gramado_fundo.jpg');
     width: 100vw;
     height: 100vh;
 }
@@ -49,6 +49,25 @@ section {
     background-color: rgba(255, 255, 255, 0.671);    
 }
 
+.btn-externo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn-externo button {
+    width: 150px;
+    height: 30px;
+    margin: 0 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: rgb(255, 151, 113);
+    transform: scale(1.05);
+}
+
 .texto-convite > h1 {
     margin-top: 10px;
     font-size: 45px;
@@ -65,5 +84,29 @@ section {
 iframe {
     width: 94%;
     height: 400px;
-    margin: 40px auto;   
+    margin: 40px auto;
+    border-radius: 15px;
+}
+
+.mini {
+    width: 78%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+.minicraque {
+    width: 100px;
+}
+
+.minicraque:hover {
+    transform: scale(1.05);
+    transform: rotate(7deg);
+}
+
+.mini img {
+    margin: 5px 15px;
 }
