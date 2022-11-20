@@ -96,6 +96,8 @@ iframe {
     border-radius: 15px;
 }
 
+
+            /* abaixo, pagina minicraque.html */
 .mini {
     width: 78%;
     display: flex;
@@ -117,4 +119,10 @@ iframe {
 
 .mini img {
     margin: 5px 15px;
+}
+
+            /*abaixo, pagina fotos.html*/
+
+.fotos-access > img {
+    margin: 12px auto;
 }
